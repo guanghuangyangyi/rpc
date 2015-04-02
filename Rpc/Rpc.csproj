@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B44A5A8-EB70-452D-8236-C594519FC431}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rpc</RootNamespace>
+    <AssemblyName>Rpc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IRpcProxy.cs" />
+    <Compile Include="Internals\Logger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Internals\SimpleHttpRequest.cs" />
+    <Compile Include="Internals\XmlRpcBoxcarRequest.cs" />
+    <Compile Include="Internals\XmlRpcClientProxy.cs" />
+    <Compile Include="Internals\XmlRpcDeserializer.cs" />
+    <Compile Include="Internals\XmlRpcErrorCodes.cs" />
+    <Compile Include="Internals\XmlRpcException.cs" />
+    <Compile Include="Internals\XmlRpcExposedAttribute.cs" />
+    <Compile Include="Internals\XmlRpcRequest.cs" />
+    <Compile Include="Internals\XmlRpcRequestDeserializer.cs" />
+    <Compile Include="Internals\XmlRpcRequestSerializer.cs" />
+    <Compile Include="Internals\XmlRpcResponder.cs" />
+    <Compile Include="Internals\XmlRpcResponse.cs" />
+    <Compile Include="Internals\XmlRpcResponseDeserializer.cs" />
+    <Compile Include="Internals\XmlRpcResponseSerializer.cs" />
+    <Compile Include="Internals\XmlRpcSerializer.cs" />
+    <Compile Include="Internals\XmlRpcServer.cs" />
+    <Compile Include="Internals\XmlRpcSystemObject.cs" />
+    <Compile Include="Internals\XmlRpcXmlTokens.cs" />
+    <Compile Include="Proxy.cs" />
+    <Compile Include="ProxyAttribute.cs" />
+    <Compile Include="RpcClient.cs" />
+    <Compile Include="RpcServer.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

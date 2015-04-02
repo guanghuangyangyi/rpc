@@ -1,0 +1,8 @@
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\bin\Debug\GoogleTest.exe.config
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\bin\Debug\GoogleTest.exe
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\bin\Debug\GoogleTest.pdb
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\bin\Debug\Rpc.dll
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\bin\Debug\Rpc.pdb
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\obj\Debug\GoogleTest.csprojResolveAssemblyReference.cache
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\obj\Debug\GoogleTest.exe
+c:\Users\filmee24\documents\visual studio 2013\Projects\Rpc\GoogleTest\obj\Debug\GoogleTest.pdb

@@ -1,0 +1,5 @@
+c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\bin\Debug\Rpc.dll
+c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\bin\Debug\Rpc.pdb
+c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\obj\Debug\Rpc.csprojResolveAssemblyReference.cache
+c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\obj\Debug\Rpc.dll
+c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\obj\Debug\Rpc.pdb
