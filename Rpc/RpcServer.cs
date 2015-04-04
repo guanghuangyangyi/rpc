@@ -17,6 +17,11 @@ namespace Rpc
             server.Add(name, obj);
         }
 
+        public void Register(string name, Delegate d)
+        {
+            server.Add(name, new { d });
+        }
+
         public void AddListener(object obj)
         {
             server.Add(obj.GetType().Name, obj);

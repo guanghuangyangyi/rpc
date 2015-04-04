@@ -3,3 +3,8 @@ c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\bin\Debug\Rpc.pd
 c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\obj\Debug\Rpc.csprojResolveAssemblyReference.cache
 c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\obj\Debug\Rpc.dll
 c:\users\filmee24\documents\visual studio 2013\Projects\Rpc\Rpc\obj\Debug\Rpc.pdb
+C:\Users\filmee24\Documents\GitHub\rpc\Rpc\bin\Debug\Rpc.dll
+C:\Users\filmee24\Documents\GitHub\rpc\Rpc\bin\Debug\Rpc.pdb
+C:\Users\filmee24\Documents\GitHub\rpc\Rpc\obj\Debug\Rpc.csprojResolveAssemblyReference.cache
+C:\Users\filmee24\Documents\GitHub\rpc\Rpc\obj\Debug\Rpc.dll
+C:\Users\filmee24\Documents\GitHub\rpc\Rpc\obj\Debug\Rpc.pdb
